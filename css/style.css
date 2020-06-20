@@ -102,6 +102,10 @@ button {
   padding: 20px;
 }
 
+.text-left .auto {
+  padding: 20px;
+}
+
 #btn-white {
   border: 1px solid white;
   padding: 10px 10px;
@@ -212,12 +216,18 @@ footer {
     padding: 40px;
   }
 
+  .text-left .auto {
+    margin-left: auto;
+    margin-right: auto ;
+    width: 50%;
+  }
+
   .text-left p {
     float: left;
     width: 50%;
     padding-left: 10px;
     font-size: 20px;
-  }
+    }
 
   .contact {
     width: 50%;
