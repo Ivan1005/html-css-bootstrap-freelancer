@@ -1,0 +1,170 @@
+body {
+   padding-top: 70px;
+   font-family: sans-serif;
+ }
+
+
+.nav {
+  background-color: #2c3e50;
+  color: white;
+  font-size: 20px;
+  height: 70px;
+}
+
+.line {
+  line-height: 70px;
+}
+
+button {
+  color: white;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.main-sfondo {
+  background-color: #1abc9c;
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.main-sfondo img {
+  height: 250px;
+  border-radius: 200px;
+}
+
+.main-sfondo h1 {
+  font-size: 60px;
+}
+
+
+.col-xs-4 hr {
+  border: 2px solid white;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.glyphicon-star {
+  font-size: 40px;
+  color: white;
+}
+
+.row-main {
+  color: #2c3e50;
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.row h2 {
+  font-size: 40px;
+}
+
+.blu {
+  color:  #2c3e50;
+}
+
+
+.col-xs-4 .blu{
+  border: 2px solid #2c3e50;
+}
+
+.spazio {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.img {
+  object-fit: contain;
+  object-position: center;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.about {
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+  padding: 50px 10px;
+}
+
+.text-left {
+  font-size: 17px;
+  padding: 20px;
+}
+
+#btn-white {
+  border: 1px solid white;
+  padding: 10px 10px;
+}
+
+.contact {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #6c757d;
+}
+
+.container input {
+  border: none;
+  background: none;
+  box-shadow: none;
+  font-size: 25px;
+  margin-top: 20%;
+}
+
+#send {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 100px;
+  padding: 20px 30px;
+  margin-bottom: 70px;
+}
+
+.white {
+  color: white;
+  background-color: #2c3e50;
+}
+
+p i {
+  font-size: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.fa-facebook-f {
+  padding: 20px 25px;
+}
+
+p a {
+  color: #1abc9c;
+}
+
+
+footer {
+  background-color: #1a252f;
+  padding: 30px;
+  color: white;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(33, 37, 41, 0.5);
+  line-height: 50px;
+}
+
+.chevron {
+  width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color: white;
+}
