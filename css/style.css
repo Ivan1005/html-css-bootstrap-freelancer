@@ -1,6 +1,7 @@
 body {
    padding-top: 70px;
    font-family: sans-serif;
+   max-width: 2000px;
  }
 
 
@@ -11,7 +12,7 @@ body {
 .nav {
   background-color: #2c3e50;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   height: 70px;
 }
 
@@ -26,7 +27,7 @@ button {
   border-radius: 7px;
   font-size: 15px;
   padding: 5px 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .main-sfondo {
@@ -46,18 +47,33 @@ button {
 }
 
 
-.col-xs-4 hr {
-  border: 2px solid white;
-}
 
 .nopadding {
   padding: 0;
 }
 
+.nopadding::after ,
+.nopadding::before {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.celeste::after ,
+.celeste::before {
+  background-color: #2c3e50;
+  border-radius: 2px;
+}
+
 .glyphicon-star {
   font-size: 40px;
-  color: white;
+  vertical-align: middle;
+  padding: 10px;
 }
+
 
 .row-main {
   color: #2c3e50;
@@ -73,20 +89,41 @@ button {
   color:  #2c3e50;
 }
 
-
-.col-xs-4 .blu{
-  border: 2px solid #2c3e50;
-}
-
 .spazio {
   padding: 10px;
   margin-top: 20px;
 }
 
+.relative {
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(26, 188, 156, 0.9);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.piu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-size: 60px;
+  color: white;
+}
+
+div .overlay:hover {
+  opacity: 1;
+}
+
 .img {
   object-fit: contain;
   object-position: center;
-  height: 200px;
   border-radius: 10px;
 }
 
@@ -105,6 +142,7 @@ button {
 .text-left .auto {
   padding: 20px;
 }
+
 
 #btn-white {
   border: 1px solid white;
@@ -126,7 +164,6 @@ button {
 
 #send {
   font-size: 20px;
-  margin-left: 30px;
   margin-top: 100px;
   padding: 20px 30px;
   margin-bottom: 70px;
@@ -189,7 +226,7 @@ footer {
     width: 70%;
   }
   #send {
-    margin-left: 160px;
+    margin-left: 15%;
   }
 
   .container.white {
@@ -208,9 +245,6 @@ footer {
     border-radius: 200px;
   }
 
-  .img {
-    height: 250px;
-  }
 
   .text-left {
     padding: 40px;
@@ -225,7 +259,7 @@ footer {
   .text-left p {
     float: left;
     width: 50%;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 20px;
     }
 
@@ -247,7 +281,7 @@ footer {
   }
 
   #send {
-    margin-left: 460px;
+    margin-left: 25%;
   }
 
   h4 {
