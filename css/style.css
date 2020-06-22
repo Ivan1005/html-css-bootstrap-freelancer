@@ -83,7 +83,7 @@ button {
 .nopadding::before {
   content: "";
   width: 13%;
-  height: 3px;
+  height: 4px;
   background-color: white;
   border-radius: 2px;
   display: inline-block;
@@ -173,7 +173,7 @@ div .overlay:hover {
 
 #btn-white {
   border: 1px solid white;
-  padding: 10px 10px;
+  padding: 15px 15px;
 }
 
 #btn-white:hover {
