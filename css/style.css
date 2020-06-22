@@ -75,8 +75,6 @@ button {
   font-size: 50px;
 }
 
-
-
 .nopadding {
   padding: 0;
 }
@@ -173,7 +171,6 @@ div .overlay:hover {
   padding: 20px;
 }
 
-
 #btn-white {
   border: 1px solid white;
   padding: 10px 10px;
@@ -204,7 +201,6 @@ div .overlay:hover {
   margin-bottom: 70px;
 }
 
-
 .white {
   color: white;
   background-color: #2c3e50;
@@ -233,7 +229,6 @@ p i:hover {
 p a {
   color: #1abc9c;
 }
-
 
 footer {
   background-color: #1a252f;
@@ -292,8 +287,6 @@ footer {
     display: none;
   }
 
-
-
 }
 
 @media screen and (min-width: 1170px) {
@@ -302,7 +295,6 @@ footer {
     height: 350px;
     border-radius: 200px;
   }
-
 
   .text-left {
     padding: 40px;
@@ -362,6 +354,5 @@ footer {
   .lg-spazio p {
     font-size: 20px;
   }
-
 
 }
