@@ -287,6 +287,12 @@ footer {
     display: none;
   }
 
+  .relative {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+
 }
 
 @media screen and (min-width: 1170px) {
