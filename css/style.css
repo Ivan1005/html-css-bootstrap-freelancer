@@ -20,6 +20,10 @@ body {
   line-height: 70px;
 }
 
+.nocell {
+  display: none;
+}
+
 button {
   color: white;
   background-color: #1abc9c;
@@ -272,6 +276,23 @@ footer {
   .container.white h3 {
     font-size: 40px;
   }
+
+  .nocell {
+    display: inline-block;
+    line-height: 70px;
+    cursor: pointer;
+  }
+
+  .nocell:hover {
+    color:  #1abc9c;
+  }
+
+  .ghost , .dropdown-content , .dropdown-content a{
+    display: none;
+  }
+
+
+
 }
 
 @media screen and (min-width: 1170px) {
